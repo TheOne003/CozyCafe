@@ -1,0 +1,230 @@
+{
+  "shots": [
+    {
+      "page": "home",
+      "width": 1440,
+      "mobile": false,
+      "toggleVisible": false,
+      "toggleDisplay": "none",
+      "overflowX": false,
+      "titleOk": true,
+      "titles": [
+        "COZY CAF\u00c9"
+      ],
+      "file": "d:\\CozyCafe\\_qa-shots\\home-1440.png"
+    },
+    {
+      "page": "home",
+      "width": 1024,
+      "mobile": false,
+      "toggleVisible": false,
+      "toggleDisplay": "none",
+      "overflowX": false,
+      "titleOk": true,
+      "titles": [
+        "COZY CAF\u00c9"
+      ],
+      "file": "d:\\CozyCafe\\_qa-shots\\home-1024.png"
+    },
+    {
+      "page": "home",
+      "width": 390,
+      "mobile": true,
+      "toggleVisible": true,
+      "toggleDisplay": "flex",
+      "overflowX": false,
+      "titleOk": true,
+      "titles": [
+        "COZY CAF\u00c9"
+      ],
+      "file": "d:\\CozyCafe\\_qa-shots\\home-390.png"
+    },
+    {
+      "page": "home",
+      "width": 360,
+      "mobile": true,
+      "toggleVisible": true,
+      "toggleDisplay": "flex",
+      "overflowX": false,
+      "titleOk": true,
+      "titles": [
+        "COZY CAF\u00c9"
+      ],
+      "file": "d:\\CozyCafe\\_qa-shots\\home-360.png"
+    },
+    {
+      "page": "about",
+      "width": 1440,
+      "mobile": false,
+      "toggleVisible": false,
+      "toggleDisplay": "none",
+      "overflowX": false,
+      "titleOk": false,
+      "titles": [
+        "Good days start small."
+      ],
+      "file": "d:\\CozyCafe\\_qa-shots\\about-1440.png"
+    },
+    {
+      "page": "about",
+      "width": 1024,
+      "mobile": false,
+      "toggleVisible": false,
+      "toggleDisplay": "none",
+      "overflowX": false,
+      "titleOk": false,
+      "titles": [
+        "Good days start small."
+      ],
+      "file": "d:\\CozyCafe\\_qa-shots\\about-1024.png"
+    },
+    {
+      "page": "about",
+      "width": 390,
+      "mobile": true,
+      "toggleVisible": true,
+      "toggleDisplay": "flex",
+      "overflowX": false,
+      "titleOk": false,
+      "titles": [
+        "Good days start small."
+      ],
+      "file": "d:\\CozyCafe\\_qa-shots\\about-390.png"
+    },
+    {
+      "page": "about",
+      "width": 360,
+      "mobile": true,
+      "toggleVisible": true,
+      "toggleDisplay": "flex",
+      "overflowX": false,
+      "titleOk": false,
+      "titles": [
+        "Good days start small."
+      ],
+      "file": "d:\\CozyCafe\\_qa-shots\\about-360.png"
+    },
+    {
+      "page": "menu",
+      "width": 1440,
+      "mobile": false,
+      "toggleVisible": false,
+      "toggleDisplay": "none",
+      "overflowX": false,
+      "titleOk": true,
+      "titles": [
+        "Come hungry. Leave cozy."
+      ],
+      "file": "d:\\CozyCafe\\_qa-shots\\menu-1440.png"
+    },
+    {
+      "page": "menu",
+      "width": 1024,
+      "mobile": false,
+      "toggleVisible": false,
+      "toggleDisplay": "none",
+      "overflowX": false,
+      "titleOk": true,
+      "titles": [
+        "Come hungry. Leave cozy."
+      ],
+      "file": "d:\\CozyCafe\\_qa-shots\\menu-1024.png"
+    },
+    {
+      "page": "menu",
+      "width": 390,
+      "mobile": true,
+      "toggleVisible": true,
+      "toggleDisplay": "flex",
+      "overflowX": false,
+      "titleOk": true,
+      "titles": [
+        "Come hungry. Leave cozy."
+      ],
+      "file": "d:\\CozyCafe\\_qa-shots\\menu-390.png"
+    },
+    {
+      "page": "menu",
+      "width": 360,
+      "mobile": true,
+      "toggleVisible": true,
+      "toggleDisplay": "flex",
+      "overflowX": false,
+      "titleOk": true,
+      "titles": [
+        "Come hungry. Leave cozy."
+      ],
+      "file": "d:\\CozyCafe\\_qa-shots\\menu-360.png"
+    },
+    {
+      "page": "contact",
+      "width": 1440,
+      "mobile": false,
+      "toggleVisible": false,
+      "toggleDisplay": "none",
+      "overflowX": false,
+      "titleOk": true,
+      "titles": [
+        "Come get cozy."
+      ],
+      "file": "d:\\CozyCafe\\_qa-shots\\contact-1440.png"
+    },
+    {
+      "page": "contact",
+      "width": 1024,
+      "mobile": false,
+      "toggleVisible": false,
+      "toggleDisplay": "none",
+      "overflowX": false,
+      "titleOk": true,
+      "titles": [
+        "Come get cozy."
+      ],
+      "file": "d:\\CozyCafe\\_qa-shots\\contact-1024.png"
+    },
+    {
+      "page": "contact",
+      "width": 390,
+      "mobile": true,
+      "toggleVisible": true,
+      "toggleDisplay": "flex",
+      "overflowX": false,
+      "titleOk": true,
+      "titles": [
+        "Come get cozy."
+      ],
+      "file": "d:\\CozyCafe\\_qa-shots\\contact-390.png"
+    },
+    {
+      "page": "contact",
+      "width": 360,
+      "mobile": true,
+      "toggleVisible": true,
+      "toggleDisplay": "flex",
+      "overflowX": false,
+      "titleOk": true,
+      "titles": [
+        "Come get cozy."
+      ],
+      "file": "d:\\CozyCafe\\_qa-shots\\contact-360.png"
+    }
+  ],
+  "checks": {
+    "prices": {
+      "count": 17,
+      "fails": [],
+      "ok": true
+    },
+    "contact": {
+      "phone": true,
+      "address": true,
+      "form": true,
+      "labels": [
+        "Name",
+        "Email",
+        "Subject",
+        "Message"
+      ]
+    }
+  }
+}

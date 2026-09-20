@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="About Cozy Café in Cadillac, MI — a welcoming place for coffee, comfort, community, and time well spent." />
+  <title>About Cozy Café — A Place to Slow Down</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,450;1,9..144,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <nav class="nav" aria-label="Primary">
+      <a class="nav__brand" href="index.html">
+        <img class="nav__logo" src="assets/images/logo.jpg" width="44" height="44" alt="Cozy Café logo" />
+        <span class="nav__wordmark">Cozy Café</span>
+      </a>
+
+      <button
+        class="nav__toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="primary-menu"
+        data-nav-toggle
+      >
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span class="visually-hidden">Open menu</span>
+      </button>
+
+      <div class="nav__panel" id="primary-menu" data-nav-menu>
+        <ul class="nav__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" aria-current="page">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a class="btn btn--primary nav__visit" href="contact.html" data-cursor="GO →">
+          Visit Us <span class="btn__arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ========== ABOUT HERO ========== -->
+    <section class="about-hero" data-about-hero aria-label="About Cozy Café">
+      <div class="about-hero__stage">
+        <div class="about-hero__bloom" aria-hidden="true"></div>
+
+        <div class="about-hero__media" data-about-media>
+          <div class="about-hero__frame">
+            <img
+              src="assets/images/about-hero.jpg"
+              alt="Warm neighborhood café interior with cream walls, wood details, soft morning light, and cozy seating"
+              width="1000"
+              height="750"
+              fetchpriority="high"
+            />
+          </div>
+          <svg class="about-hero__leaf" aria-hidden="true" viewBox="0 0 40 48" fill="currentColor">
+            <path d="M20 2 C8 14, 4 28, 20 46 C36 28, 32 14, 20 2 Z"/>
+          </svg>
+        </div>
+
+        <div class="about-hero__copy">
+          <p class="eyebrow about-hero__eyebrow">Our story</p>
+          <h1 class="display about-hero__title">
+            <span class="reveal-line"><span>Good days</span></span>
+            <span class="reveal-line"><span>start small.</span></span>
+          </h1>
+          <p class="about-hero__support">
+            A little coffee.<br />
+            A little comfort.<br />
+            A little time for yourself.
+          </p>
+        </div>
+
+        <span class="about-hero__place">Cozy Café · Cadillac, MI</span>
+      </div>
+    </section>
+
+    <!-- ========== BRAND STORY ========== -->
+    <section class="section about-story" aria-labelledby="story-heading">
+      <div class="container about-story__layout">
+        <div class="about-story__heading">
+          <h2 id="story-heading" class="display display--lg">
+            <span class="reveal-line"><span>A place to</span></span>
+            <span class="reveal-line"><span>slow down.</span></span>
+          </h2>
+          <svg class="deco-curve reveal" aria-hidden="true" viewBox="0 0 160 36" fill="none">
+            <path d="M4 26 C 42 6, 118 6, 156 26" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+
+        <div class="about-story__body">
+          <p class="about-story__text reveal">
+            Cozy Café is built around a simple idea:
+            good coffee, good food, and a comfortable
+            place to spend a little time.
+          </p>
+          <p class="about-story__text reveal">
+            Whether you’re starting the morning, taking
+            a break between work, meeting a friend, or
+            settling in with a laptop, the café is meant
+            to feel easy, welcoming, and unhurried.
+          </p>
+          <div class="about-story__thumb reveal">
+            <img
+              src="assets/images/cafe-interior.jpg"
+              alt="Soft café seating area with warm light and plants — atmospheric brand imagery"
+              width="420"
+              height="320"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== WHAT WE BELIEVE ========== -->
+    <section class="section about-beliefs" aria-labelledby="beliefs-heading">
+      <div class="container">
+        <header class="section-head">
+          <div>
+            <p class="eyebrow reveal">Our principles</p>
+            <h2 id="beliefs-heading" class="display display--md">
+              <span class="reveal-line"><span>We believe in</span></span>
+              <span class="reveal-line"><span>the little things.</span></span>
+            </h2>
+          </div>
+        </header>
+
+        <ul class="belief-list" data-belief-list>
+          <li class="belief reveal" data-belief tabindex="0" aria-expanded="false">
+            <div class="belief__row">
+              <span class="belief__num" aria-hidden="true">01</span>
+              <h3 class="belief__title">Quality</h3>
+              <span class="belief__mark" aria-hidden="true"></span>
+            </div>
+            <p class="belief__copy">
+              Good ingredients. Thoughtful food. Coffee worth slowing down for.
+            </p>
+          </li>
+          <li class="belief reveal" data-belief tabindex="0" aria-expanded="false">
+            <div class="belief__row">
+              <span class="belief__num" aria-hidden="true">02</span>
+              <h3 class="belief__title">Comfort</h3>
+              <span class="belief__mark" aria-hidden="true"></span>
+            </div>
+            <p class="belief__copy">
+              A place where you can settle in and feel at home.
+            </p>
+          </li>
+          <li class="belief reveal" data-belief tabindex="0" aria-expanded="false">
+            <div class="belief__row">
+              <span class="belief__num" aria-hidden="true">03</span>
+              <h3 class="belief__title">Community</h3>
+              <span class="belief__mark" aria-hidden="true"></span>
+            </div>
+            <p class="belief__copy">
+              A welcoming space for students, workers, families, friends, and visitors.
+            </p>
+          </li>
+          <li class="belief reveal" data-belief tabindex="0" aria-expanded="false">
+            <div class="belief__row">
+              <span class="belief__num" aria-hidden="true">04</span>
+              <h3 class="belief__title">Time</h3>
+              <span class="belief__mark" aria-hidden="true"></span>
+            </div>
+            <p class="belief__copy">
+              Because sometimes the best part of the day is simply taking a moment.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ========== CAFÉ EXPERIENCE ========== -->
+    <section class="section about-experience" aria-labelledby="experience-heading" data-about-experience>
+      <div class="about-experience__bleed">
+        <div class="about-experience__media">
+          <img
+            src="assets/images/about-experience.jpg"
+            alt="Cozy café corner with coffee, notebook, laptop, soft window light, and a plant — atmospheric brand imagery"
+            width="1400"
+            height="800"
+            loading="lazy"
+          />
+        </div>
+
+        <div class="about-experience__panel">
+          <p class="eyebrow">The vibe</p>
+          <h2 id="experience-heading" class="display display--lg about-experience__title">
+            <span>Stay</span>
+            <span>a while.</span>
+          </h2>
+          <p class="about-experience__text">
+            Bring the laptop.<br />
+            Open the notebook.<br />
+            Meet someone you haven’t seen in a while.<br />
+            Or order another cup and stay a little longer.
+          </p>
+          <ul class="atmosphere__highlights about-experience__list" aria-label="Café experience">
+            <li class="atm-item" tabindex="0">
+              <span class="atm-item__label">Wifi</span>
+              <span class="atm-item__note">Stay connected while you stay awhile.</span>
+            </li>
+            <li class="atm-item" tabindex="0">
+              <span class="atm-item__label">Comfy seating</span>
+              <span class="atm-item__note">Take your time.</span>
+            </li>
+            <li class="atm-item" tabindex="0">
+              <span class="atm-item__label">Good lighting</span>
+              <span class="atm-item__note">Good for pages, screens, and slow mornings.</span>
+            </li>
+            <li class="atm-item" tabindex="0">
+              <span class="atm-item__label">Study + work</span>
+              <span class="atm-item__note">Bring the laptop. Stay for another cup.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== COMMUNITY ========== -->
+    <section class="section about-community" aria-labelledby="community-heading">
+      <div class="container about-community__layout">
+        <h2 id="community-heading" class="display display--lg about-community__title">
+          <span class="reveal-line"><span>For every kind</span></span>
+          <span class="reveal-line"><span>of day.</span></span>
+        </h2>
+
+        <ul class="day-list" aria-label="Moments at Cozy Café">
+          <li class="day-list__item reveal">Early mornings.</li>
+          <li class="day-list__item reveal">Busy afternoons.</li>
+          <li class="day-list__item reveal">Study sessions.</li>
+          <li class="day-list__item reveal">Work breaks.</li>
+          <li class="day-list__item reveal">Catch-ups.</li>
+          <li class="day-list__item reveal">Family visits.</li>
+          <li class="day-list__item reveal">Quiet moments.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ========== MARQUEE ========== -->
+    <div class="marquee-band" aria-hidden="true">
+      <div class="marquee marquee--primary">
+        <div class="marquee__track">
+          <div class="marquee__group">
+            <span>Coffee</span><span class="marquee__dot">•</span>
+            <span>Food</span><span class="marquee__dot">•</span>
+            <span>People</span><span class="marquee__dot">•</span>
+            <span>Comfort</span><span class="marquee__dot">•</span>
+            <span>Community</span><span class="marquee__dot">•</span>
+            <span>Good Vibes</span><span class="marquee__dot">•</span>
+          </div>
+          <div class="marquee__group" aria-hidden="true">
+            <span>Coffee</span><span class="marquee__dot">•</span>
+            <span>Food</span><span class="marquee__dot">•</span>
+            <span>People</span><span class="marquee__dot">•</span>
+            <span>Comfort</span><span class="marquee__dot">•</span>
+            <span>Community</span><span class="marquee__dot">•</span>
+            <span>Good Vibes</span><span class="marquee__dot">•</span>
+          </div>
+          <div class="marquee__group" aria-hidden="true">
+            <span>Coffee</span><span class="marquee__dot">•</span>
+            <span>Food</span><span class="marquee__dot">•</span>
+            <span>People</span><span class="marquee__dot">•</span>
+            <span>Comfort</span><span class="marquee__dot">•</span>
+            <span>Community</span><span class="marquee__dot">•</span>
+            <span>Good Vibes</span><span class="marquee__dot">•</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== CLOSING ========== -->
+    <section class="section about-close" aria-labelledby="close-heading">
+      <div class="container about-close__inner">
+        <h2 id="close-heading" class="display about-close__title reveal">
+          <span>Take</span>
+          <span>your time.</span>
+        </h2>
+        <p class="about-close__support reveal">There’s always room for one more cup.</p>
+        <div class="about-close__actions reveal">
+          <a class="btn btn--primary" href="menu.html" data-cursor="GO →">
+            Explore the Menu <span class="btn__arrow" aria-hidden="true">→</span>
+          </a>
+          <a class="btn btn--ghost" href="contact.html" data-cursor="GO →">
+            Visit Us <span class="btn__arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== LOCATION CTA ========== -->
+    <section class="section visit visit--about" aria-labelledby="about-visit-title">
+      <div class="container">
+        <div class="visit__invite reveal">
+          <p class="eyebrow">Find us</p>
+          <h2 id="about-visit-title" class="display display--md visit__title">
+            <span>Come get</span>
+            <span>cozy.</span>
+          </h2>
+          <div class="visit__details">
+            <p class="visit__name">Cozy Café</p>
+            <p class="visit__address">
+              8834 E 34 Rd #131<br />
+              Cadillac, MI 49601
+            </p>
+            <p class="visit__phone">
+              <a href="tel:+15688289017">+1(56)88289017</a>
+            </p>
+          </div>
+          <div class="visit__actions">
+            <a
+              class="btn btn--primary"
+              href="https://maps.google.com/?q=8834+E+34+Rd+%23131+Cadillac+MI+49601"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-cursor="GO →"
+            >
+              Get Directions <span class="btn__arrow" aria-hidden="true">→</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <img
+            class="footer__brand-mark"
+            src="assets/images/logo.jpg"
+            alt=""
+            width="72"
+            height="72"
+            aria-hidden="true"
+          />
+          <h2>Cozy Café</h2>
+          <p>Coffee · Food · Good Vibes</p>
+        </div>
+        <div class="footer__col">
+          <h3>Explore</h3>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="menu.html">Menu</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer__col">
+          <h3>Connect</h3>
+          <p class="footer__note">Social links coming soon.</p>
+          <div class="footer__social" aria-label="Social placeholders">
+            <span title="Placeholder — no link yet">IG</span>
+            <span title="Placeholder — no link yet">FB</span>
+            <span title="Placeholder — no link yet">X</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2026 Cozy Café. All rights reserved.</p>
+        <p>Cadillac, MI</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="cursor-hint" data-cursor-hint aria-hidden="true"></div>
+  <script src="js/script.js" defer></script>
+</body>
+</html>
