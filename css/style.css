@@ -413,8 +413,11 @@ select:focus-visible {
   .nav__panel {
     position: fixed;
     inset: 0;
-    background: rgba(248, 241, 229, 0.97);
-    backdrop-filter: blur(18px);
+    z-index: 210;
+    background: var(--color-cream);
+    background-image:
+      radial-gradient(ellipse 70% 50% at 80% 15%, rgba(232, 216, 195, 0.85), transparent 70%),
+      radial-gradient(ellipse 50% 40% at 10% 85%, rgba(95, 115, 85, 0.1), transparent 65%);
     flex-direction: column;
     justify-content: center;
     gap: 2.5rem;
@@ -445,6 +448,7 @@ select:focus-visible {
     font-size: clamp(2rem, 8vw, 2.75rem);
     text-transform: uppercase;
     letter-spacing: -0.02em;
+    color: var(--color-brown);
   }
 
   .nav__links a::after {
@@ -459,6 +463,13 @@ select:focus-visible {
 
 body.menu-open {
   overflow: hidden;
+}
+
+body.menu-open .site-header {
+  background: var(--color-cream);
+  box-shadow: none;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
 }
 
 /* ---------- HERO (layered editorial) ---------- */
